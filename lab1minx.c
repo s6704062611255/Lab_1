@@ -1,17 +1,19 @@
 #include <stdio.h>
 int main(){
 
-int x = 1;
-int y = 2;
+int n1 ;
+int n2 ;
+scanf("%d",&n1);
+scanf("%d",&n2);
 
 
-if (x>y){
-	printf("x is greater than y \n");
-	printf("diff x>y = %d \n",(x-y));
+if (n1>n2){
+	printf("n1 is greater than n2 \n");
+	printf("diff n1>n2 = %d \n",(n1-n2));
 } 
 else {
-	printf("y is greater than x \n");
-	printf("diff y > x = %d \n",(y-x));	
+	printf("n2 is greater than n1 \n");
+	printf("diff n2 > n1 = %d \n",(n2-n1));	
 }
 return 0;
 }
