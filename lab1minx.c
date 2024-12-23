@@ -3,10 +3,7 @@ int main(){
 
 int n1 ;
 int n2 ;
-scanf("%d",&n1);
-scanf("%d",&n2);
-
-
+scanf("%d %d",&n1 ,&n2);
 if (n1>n2){
 	printf("n1 is greater than n2 \n");
 	printf("diff n1>n2 = %d \n",(n1-n2));
