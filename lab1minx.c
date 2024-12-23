@@ -9,7 +9,7 @@ if (x>y){
 	printf("x is greater than y \n");
 	printf("diff x>y = %d \n",(x-y));
 } 
-if (y>x){
+else {
 	printf("y is greater than x \n");
 	printf("diff y > x = %d \n",(y-x));	
 }
